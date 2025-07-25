@@ -8,12 +8,12 @@ Dự án phân tích xu hướng thị trường việc làm bằng cách kết 
 
 ```mermaid
 flowchart TD
-  A[Job Descriptions] --> B[Text Cleaning]
-  B --> C[N-gram Extractor]
-  C --> D[Embedding with m2-bert]
-  D --> E[Clustering]
-  E --> F[LLM Agent (Gemini)]
-  F --> G[Trend Report Output]
+    A[Job Descriptions] --> B[Text Cleaning]
+    B --> C[N-gram Extractor]
+    C --> D[Embedding with m2-bert]
+    D --> E[Clustering]
+    E --> F[LLM Agent (Gemini)]
+    F --> G[Trend Report Output]
 ```
 
 ### 📁 Cấu trúc thư mục
